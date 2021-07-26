@@ -41,7 +41,7 @@ setInterval(() => {
         url = $('link[rel="canonical"]').attr('href')
         status = url.startsWith("https://www.youtube.com/watch?v") ? true : false;
 
-        console.log(res.body)
+        console.log("checking")
 
 
     })
