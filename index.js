@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-port =(process.env.PORT || 8080);
+port =(process.env.PORT || 3000);
 
 const cheerio = require('cheerio')
 const needle = require('needle')
