@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-const port = 3000
+port =(process.env.PORT || 8080);
+
 const cheerio = require('cheerio')
 const needle = require('needle')
 
@@ -43,4 +44,4 @@ setInterval(() => {
 
 
     })
-}, 5000);
+}, 62000);
