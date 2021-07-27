@@ -37,10 +37,9 @@ setInterval(() => {
     }, function (err, res) {
         if (err) {console.log(err);throw err}
         var $ = cheerio.load(res.body)
-        console.log(res.body);
         title = $('meta[name="title"]').attr('content')
         url = $('link[rel="canonical"]').attr('href')
-        if(title || url ==undefined){status=false;title="API ERROR";url="API ERROR"}
+        if(url ==undefined){status=false;title="API ERROR";url="API ERROR"}
         status = url.startsWith("https://www.youtube.com/watch?v") ? true : false;
 
         console.log("checking")
