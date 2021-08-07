@@ -2,9 +2,8 @@
 <p align="center">
   <h2 align="center">isyoutubelive</h2>
 
-<p align="center">
+[![NPM](https://nodei.co/npm/isyoutubelive.png?compact=true)](https://npmjs.org/package/isyoutubelive)
 
-  </p>
 
 NPM Module to check whether youtube channel is live or not . WITHOUT YOUTUBE API KEY <br>
 Return object with live status, video title,video url.
