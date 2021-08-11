@@ -1,4 +1,4 @@
-
+![npm](https://img.shields.io/npm/dt/isyoutubelive?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/amith-vp/isyoutubelive?style=flat-square)![npm](https://img.shields.io/npm/v/isyoutubelive?style=flat-square)  ![npm bundle size](https://img.shields.io/bundlephobia/min/isyoutubelive?style=flat-square)  ![NPM](https://img.shields.io/npm/l/isyoutubelive?style=flat-square)
 <p align="center">
   <h2 align="center">isyoutubelive</h2>
 
